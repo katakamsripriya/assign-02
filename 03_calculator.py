@@ -27,6 +27,18 @@ import unittest
 def calculator(expression):
   ans = 0
   # write your code here
+  if '+' in expression:
+    s=expression.split('+')
+    ans=int(s[0])+int(s[1])
+  if '-' in expression:
+    s=expression.split('-')
+    ans=int(s[0])-int(s[1])
+  if '/' in expression:
+    s=expression.split('/')
+    ans=int(s[0])/int(s[1])
+  if '*' in expression:
+    s=expression.split('*')
+    ans=int(s[0])*int(s[1])
 
   return ans
 
