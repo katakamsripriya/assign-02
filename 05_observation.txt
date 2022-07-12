@@ -1,0 +1,30 @@
+Question 1
+In this question we need to concatinate 3 dictionaries.
+Approach:
+In the first question we add each of the input dictionary to a new dictionary using the
+update function add we return the new dictionary to get the required output
+Question 2
+In this question we are required to return the number with the maximum number of digits
+and if there are multiple numbers then we need to return their sum.
+Approach:
+First we find the maximum number in the list using the max function and then we convert
+the number into a string and find it's length and then we run a for loop on the list
+then we compare the length of the max number with that of each number in the list by converting
+the number into a string and if the condition is true then we append the number into a ans list
+by converting the number into a integer data type and then we finally return the sum of the
+answer list.
+Question 3
+In this question we are required to identify the calculating symbol and do the corresponding
+operation
+Approach:
+we check for a symbol in the expression if the symbol is present then we split the expression
+at that symbol and add the 1st and 2nd element of the string by converting into a integer
+data type and return the answer
+Question 4
+In this question we need replace ':' with a '->' in a dictionary and return it as a list.
+Approach:
+In this question we split the dictionary into twwo lists using the .values() and .keys()
+and then we store the length of both lists in two diffrent variables and then we run nested
+loops and compare the indexes and if they are equal equal then we concatinate the respective
+list elements with a '->'in between them and then finally we append the element into a
+list and return it.
