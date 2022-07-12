@@ -18,6 +18,18 @@ import unittest
 def capital_dict(d1):
   str_lst = []
   # write your code here
+  x=d1.keys()
+  y=d1.values()
+  a=list(x)
+  b=list(y)
+  k=len(a)
+  m=len(b)
+  for i in range(0,k):
+    for j in range(0,m):
+      if i==j:
+        str_lst.append(a[i]+' -> '+b[j])
+      else:
+        pass
 
   return str_lst
 
